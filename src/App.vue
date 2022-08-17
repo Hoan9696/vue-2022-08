@@ -1,6 +1,8 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div id="app" class="bg-gray-50 h-screen">
+    <div class="flex justify-center pt-10">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -18,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
