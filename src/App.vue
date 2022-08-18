@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-gray-50 h-screen">
+  <div id="app" class="bg-gray-100 h-screen">
     <div class="flex justify-center pt-10">
       <router-view></router-view>
     </div>
