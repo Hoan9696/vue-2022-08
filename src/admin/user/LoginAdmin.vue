@@ -15,7 +15,7 @@
       <div class="flex items-center justify-between">
         <button class="button-primary">Sign in</button>
         <a class="link-primary" @click="register">Register</a>
-        <a class="link-primary">Forgot Password?</a>
+        <a class="link-primary" @click="changPassword">Forgot Password?</a>
       </div>
     </form>
     <p class="text-center text-gray-500 text-xs">&copy;2020 Phan Văn Hoan</p>
@@ -32,6 +32,9 @@ export default {
   methods: {
     register() {
       this.$router.push("/register")
+    },
+    changPassword() {
+      this.$router.push("/change-password")
     }
   }
 };
