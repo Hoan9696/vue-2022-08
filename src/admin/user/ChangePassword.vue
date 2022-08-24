@@ -2,7 +2,7 @@
   <div class="w-full max-w-sm">
     <form class="from-card">
       <div class="text-center">
-        <label class="title-card">Change Passwrd</label>
+        <label class="title-card">Change Password</label>
       </div>
       <div class="mb-4">
         <label class="input-label">Username</label>

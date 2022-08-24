@@ -31,17 +31,18 @@ export default {
   }),
   methods: {
     register() {
-      this.$router.push("/register")
+      this.$router.push("/register");
     },
     changPassword() {
-      this.$router.push("/change-password")
-    }
-  }
+      this.$router.push("/change-password");
+    },
+  },
 };
 </script>
 
 <style scoped>
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
 }
 </style>
